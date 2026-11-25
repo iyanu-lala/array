@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="bg-danger-subtle">
+    <div class="col-9 col-lg-6 col-md-5 mx-auto mt-4 shadow p-4 bg-info-subtle">
+    <h2 class="text-center text-decoration-underline py-3 fs-1">Mini Shopping Cart</h2>
+    <input type="text" name="" id="input" placeholder="Enter your item here" class="form-control form-control-sm shadow-none">
+    <button onclick="addItem()" class="w-100 btn btn-outline-success mt-2">Add Item</button>
+    <button onclick="deleteLast()" class="w-100 btn btn-outline-info mt-3 ">Delete Item</button>
+            <button onclick="deleteAll()" class="w-100 btn btn-outline-info mt-3 ">Clear the whole cart</button>
+    </div>
+    <div id="display" class="text-center mt-2">Your item will show here</div>
+    <script src="shopping.js"></script>
+</body> 
+</html>
